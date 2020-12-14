@@ -107,7 +107,6 @@ ul {
 }
 .box25:after{
   position: absolute;
-  content: '';
   right: -7px;
   top: -7px;
   border-width: 0 15px 15px 0;
