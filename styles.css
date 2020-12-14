@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  background: #eae2d6
+}
+
+header {
+  background-image: url(../img/sky2.png);
+  background-repeat: repeat-x;
+  height: 25vh;
+}
+
+header h1 {
+  text-align: center;
+  padding-top: 30px;
+  font-family: cursive;
+  margin: 0;
+  font-size: 50px;
+  color: purple;
+}
+
+header p {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.main-nav {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+h1 {
+  font-size: 20px;
+  color: rgb(7, 11, 243);
+  text-align: center;
+}
+
+.customer {
+  text-align: center;
+  font-size: 20px;
+}
+
+ul {
+  text-align: center;
+  list-style: none;
+}
+
+.home-content {
+  text-align: center;
+  margin-top: 10%;
+}
+
+.home-content p {
+  font-size: 1.125rem;
+  margin: 10px 0 42px;
+}
+
+.page-title {
+  font-size: 3rem;
+  font-family: cursive;
+  text-transform: uppercase;
+  font-weight: normal;
+}
+
+.button {
+  font-size: 1.375rem;
+  background: #0bd;
+  color: #fff;
+  border-radius: 5px;
+  padding: 18px 32px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background: #0090aa;
+}
+
+.toppo {
+  width: 50px;
+  height: 50px;
+  justify-content: space-between;
+}
+
+.sauce {
+  font-size: 16px;
+}
+
+.box25 {
+  padding: 0.5em 1em;
+    margin: 2em 0;
+    background: #c6e4ff;
+    border-bottom: solid 6px #aac5de;
+    border-radius: 9px;
+}
+.box25 {
+  margin-left: 64px;
+  margin-right: 64px;
+  margin-bottom: 64px;
+  text-align: center;
+  position: relative;
+  background: #fff0cd;
+  box-shadow: 0px 0px 0px 5px #fff0cd;
+  border: dashed 2px white;
+  padding: 0.2em 0.5em;
+  color: #454545;
+}
+.box25:after{
+  position: absolute;
+  content: '';
+  right: -7px;
+  top: -7px;
+  border-width: 0 15px 15px 0;
+  border-style: solid;
+  border-color: #ffdb88 #fff #ffdb88;
+  box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.15);
+}
