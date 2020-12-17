@@ -81,8 +81,7 @@ ul {
 .info {
   margin-bottom: 20px;
   width: 375px;
-  margin-right: 200px;
-  margin-left: 100px;
+  margin: 0 200px 0 200px
 }
 
 .info h2 {
