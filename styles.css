@@ -4,7 +4,7 @@ html {
 
 body {
   margin: 0;
-  background: linear-gradient(#f5c4e6, #f3d28b);
+  background: (#dab6cf);
 }
 
 header {
@@ -84,7 +84,7 @@ ul {
 .info {
   margin-bottom: 20px;
   width: 375px;
-  margin: 0;
+  margin-left: 64px;
 }
 
 .info h2 {
