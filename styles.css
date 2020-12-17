@@ -32,6 +32,7 @@ header p {
   display: flex;
   justify-content: center;
   justify-content: space-around;
+  text-align: center;
 }
 
 h1 {
@@ -82,9 +83,8 @@ ul {
 
 .info {
   margin-bottom: 20px;
-  width: 500px;
-  margin-left: 30%;
-  margin-right: 50%;
+  width: 375px;
+  margin: 0;
 }
 
 .info h2 {
