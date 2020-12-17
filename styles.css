@@ -8,7 +8,7 @@ body {
 }
 
 header {
-  background-image: url(../img/sky2.png);
+  background-image: url(https://github.com/kazuhiro-orizinaru/parfait-origial/blob/main/sky2.png);
   background-repeat: repeat-x;
   height: 25vh;
 }
@@ -105,7 +105,6 @@ ul {
   border-radius: 0 0 10px 10px;
   text-align: center;
   box-shadow: 5px 5px 10px;
-  rgba(0,0,0,0.5);
 }
 
 .btn {
