@@ -1,10 +1,14 @@
+html {
+  min-height: 150%;
+}
+
 body {
   margin: 0;
-  background: #eae2d6
+  background: linear-gradient(#f5c4e6, #f3d28b);
 }
 
 header {
-  background-image: url(https://github.com/kazuhiro-orizinaru/parfait-origial/blob/main/sky2.png?raw=true);
+  background-image: url(../img/sky2.png);
   background-repeat: repeat-x;
   height: 25vh;
 }
@@ -76,41 +80,35 @@ ul {
   background: #0090aa;
 }
 
-.toppo {
-  width: 50px;
-  height: 50px;
-  justify-content: space-between;
+.info {
+  margin-bottom: 20px;
+  width: 500px;
+  margin-left: 30%;
+  margin-right: 50%;
 }
 
-.sauce {
-  font-size: 16px;
-}
-
-.box25 {
-  padding: 0.5em 1em;
-    margin: 2em 0;
-    background: #c6e4ff;
-    border-bottom: solid 6px #aac5de;
-    border-radius: 9px;
-}
-.box25 {
-  margin-left: 64px;
-  margin-right: 64px;
-  margin-bottom: 64px;
+.info h2 {
+  margin: 0;
+  border: 1px solid #6bc5e2;
+  padding: 5px;
+  border-radius: 10px 10px 0;
+  background: #6bc5e2;
   text-align: center;
-  position: relative;
-  background: #fff0cd;
-  box-shadow: 0px 0px 0px 5px #fff0cd;
-  border: dashed 2px white;
-  padding: 0.2em 0.5em;
-  color: #454545;
+  font-size: 18px;
+  color: #fff;
 }
-.box25:after{
-  position: absolute;
-  right: -7px;
-  top: -7px;
-  border-width: 0 15px 15px 0;
-  border-style: solid;
-  border-color: #ffdb88 #fff #ffdb88;
-  box-shadow: -1px 1px 1px rgba(0, 0, 0, 0.15);
+
+.info p {
+  margin: 0;
+  border: 5px solid #6bc5e2;
+  padding: 20px;
+  border-radius: 0 0 10px 10px;
+  text-align: center;
+  box-shadow: 5px 5px 10px;
+  rgba(0,0,0,0.5);
+}
+
+.btn {
+  font-size: 15px;
+  color: rgb(7, 42, 241);
 }
