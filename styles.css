@@ -78,7 +78,12 @@ ul {
   background: #0090aa;
 }
 
-.info {
+.info h2 {
   text-align: center;
-  border: dotted #0090aa 5px;
+  border: dotted #d53cfc 5px;
+}
+
+.info {
+  margin-left: 64px;
+  margin-right: 64px;
 }
