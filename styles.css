@@ -87,4 +87,5 @@ ul {
   margin-left: 64px;
   margin-right: 64px;
   text-align: center;
+  border: double #03772a 4px;
 }
