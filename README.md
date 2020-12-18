@@ -1,1 +1,1 @@
-# parfait-origial
+# parfait-original
