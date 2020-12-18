@@ -110,3 +110,14 @@ ul {
   font-size: 15px;
   color: rgb(7, 42, 241);
 }
+
+@media screen and (min-width: 768px)
+{
+  .header {
+    font-size: 1.4rem;
+  }
+
+  .info {
+    margin: 0, auto;
+  }
+}
