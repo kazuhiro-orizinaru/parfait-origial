@@ -8,8 +8,6 @@ body {
 }
 
 header {
-  width: 100vh;
-  margin-left: 400px;
 }
 
 header h1 {
@@ -82,7 +80,7 @@ ul {
 
 .info {
   margin-bottom: 20px;
-  margin-left: 300px;
+  margin-left: 200px;
 }
 
 .info h2 {
