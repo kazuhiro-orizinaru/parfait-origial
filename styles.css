@@ -111,7 +111,7 @@ ul {
   color: rgb(7, 42, 241);
 }
 
-@media screen and (min-width: 768px)
+@media screen and (min-width: 365px)
 {
   .header {
     font-size: 1.4rem;
