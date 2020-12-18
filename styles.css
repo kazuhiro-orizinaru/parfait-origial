@@ -78,32 +78,3 @@ ul {
   background: #0090aa;
 }
 
-.info {
-  margin-bottom: 20px;
-}
-
-.info h2 {
-  margin: 0;
-  border: 1px solid #6bc5e2;
-  padding: 5px;
-  border-radius: 10px 10px 0;
-  background: #6bc5e2;
-  text-align: center;
-  font-size: 18px;
-  color: #fff;
-}
-
-.info p {
-  margin: 0;
-  border: 5px solid #6bc5e2;
-  padding: 20px;
-  border-radius: 0 0 10px 10px;
-  text-align: center;
-  box-shadow: 5px 5px 10px;
-  background: #fff;
-}
-
-.btn {
-  font-size: 15px;
-  color: rgb(7, 42, 241);
-}
