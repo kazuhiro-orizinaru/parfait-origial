@@ -7,9 +7,6 @@ body {
   background: #b2dafa  
 }
 
-header {
-}
-
 header h1 {
   text-align: center;
   padding-top: 30px;
@@ -81,11 +78,14 @@ ul {
 .info h2 {
   text-align: center;
   border: dotted #d53cfc 5px;
+  margin-left: 64px;
+  margin-right: 64px;
 }
 
 .info p {
   margin-left: 64px;
   margin-right: 64px;
+  padding-top: 10px;
   text-align: center;
   border: double #03772a 4px;
 }
