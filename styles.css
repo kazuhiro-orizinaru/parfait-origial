@@ -80,4 +80,5 @@ ul {
 
 .info {
   text-align: center;
+  border: dotted #0090aa 5px;
 }
