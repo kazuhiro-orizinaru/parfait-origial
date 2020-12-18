@@ -8,7 +8,8 @@ body {
 }
 
 header {
-  width: 500px;
+  width: 100vh;
+  margin: clamp(0, 5vh, 300px);
 }
 
 header h1 {
@@ -18,7 +19,6 @@ header h1 {
   margin: 0;
   font-size: 50px;
   color: purple;
-  display: block;
 }
 
 header p {
@@ -83,7 +83,7 @@ ul {
 .info {
   margin-bottom: 20px;
   width: 375px;
-  margin: 0 200px 0 200px
+  margin: clamp(0, 5vh, 300px);
 }
 
 .info h2 {
@@ -110,26 +110,4 @@ ul {
 .btn {
   font-size: 15px;
   color: rgb(7, 42, 241);
-}
-
-@media (min-width: 375px) and (max-width: 500px) 
-{
-  header {
-    font-size: 1.4rem;
-    margin: 0;
-  }
-
-  .info {
-    margin: 0;
-  }
-}
-
-@media (min-width: 800px) {
-  .info {
-    margin-left: 300px;
-  }
-
-  header {
-    text-align: center;
-  }
 }
